@@ -45,14 +45,18 @@ body  {
     width: 100vw;
     height: 100vh;
 }
-
+/*Configuração do main externo*/
 div#main {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
 }
+/*--------------------------------------*/
+
+/*Configuração do main interno*/
 main {
     background-color: var(--White);
     max-width: 625px;
@@ -68,7 +72,7 @@ main > h1 {
     margin-bottom: 40px;
     font-size: 2.3em;
 }
-
+/*--------------------------------------*/
 section {
     width: 100%;
     height: auto;
@@ -102,8 +106,7 @@ main > article > p {
 }
 
 div.attribution {
-    position: relative;
-    top: -5%;
+    margin-top: 20px;
     color: var(--Purple600);
     font-family: worksans-italicvariable;
     text-align: center;
