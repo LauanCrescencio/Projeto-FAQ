@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media (max-width:650px) {
+    header {
+        background-image: url(../images/background-pattern-mobile.svg);
+    }
+    main {
+        width: 90vw;
+    }
+    
+}
